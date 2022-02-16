@@ -39,7 +39,14 @@ nav{
            
 }
 
+.animacionlista{
+    transition: all;
+}
 
+.animacionlista:hover{
+    background-color: grey;
+    color: white;
+}
 
 ul li{
     display: inline;
@@ -329,5 +336,3 @@ form{
     text-align: center;
     padding: 40px;
 }
-
-
