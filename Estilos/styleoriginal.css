@@ -1,0 +1,247 @@
+/*Aca va lo que se repite en todas las paginas*/
+*{
+    padding: 0;
+    margin: 0;
+ }
+
+html{
+     background-color: rgb(0, 0, 0);
+ }
+a{
+    text-decoration: none;
+} 
+header{
+     background-color: rgb(0, 0, 0);
+     margin: 5px 
+         
+}
+
+.banner-flex{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    padding:0px 480px;
+    background-color: #653330
+}
+
+ul li{
+    display: inline;
+    padding: 0px 20px;
+    margin: 5px;
+    background-color: white;
+    width: 150px;
+    background-color: #653330
+    color: black;
+}
+
+.safetravel{
+    display: block;
+    margin: 0   auto;
+    padding: 50px;
+}
+
+footer{
+    background-color: #653330;
+    color: white;
+    padding-left: 1350px;
+}
+/*Index*/
+
+.youtube{
+    padding: 25px 511px;
+    background-image: url(../Imagenes/vamo.jpg);    
+    margin: 0 auto;
+}
+
+.frase1{
+    background-color: #653330;
+    color: white;
+    padding: 15px 0px;
+    margin: 0 auto;
+  
+}
+
+.frase2{
+    background-color: #653330;
+    color: white;
+    margin: 0 auto;
+    padding: 15px 0px
+}
+
+.indexmain{
+    display: block;
+    width: 100%;
+    margin: 0   auto;
+    ;
+    text-align: center;
+}
+
+/*Nosotros*/
+
+.nosotrosmain{
+    width: 100%;
+    margin: 0 auto;
+}    
+
+.nosotrosmain h2{
+    text-align: center;
+    
+}
+
+.nosotrosdiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+        
+}
+
+.nosotrosdiv p{
+    width: 50%;
+    padding: 55px 10px;
+    color: white;
+    font-size: 20px;
+    background-image: url(../Imagenes/manos.png);          
+}
+.nosotrosdiv img{
+    width: 50%;
+}
+
+/*Destinos*/
+
+.destinosmain{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.destinosmain h2{
+    text-align: center;
+    color: white;
+    background-color: #653330
+}
+
+.destinosdiv{
+    width: 100%;
+    display: block;
+    color: white;
+}
+
+.destinofte{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+
+.destinofte1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.destinofte1 p{
+    width: 50%;
+    background-color: #653330;
+    text-align: center;
+    font-size: 20px;
+    padding: 150px;
+
+}
+
+.destinofte1 img{
+    width: 50%;
+}
+
+.arriba{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+/*Excursiones*/
+
+.excursionesmain{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.excursionesmain h2{
+    text-align: center;
+    color: white;
+    background-color: #653330
+}
+
+.excursionesdiv{
+    width: 100%;
+    display: block;
+    color: white;
+}
+
+.excursionesfte{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+    
+    
+}
+
+.excursionesfte1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.excursionesfte1 p{
+    width: 50%;
+    background-color: #653330;
+    text-align: center;
+    font-size: 20px;
+    padding: 150px;
+    color: white;
+}
+
+.excursionesfte1 img{
+    width: 50%;
+}
+
+/*Contactanos*/
+
+.contactmain{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.contactmain h2{
+    text-align: center;
+}
+
+.contactdiv{
+    background-image: url(../Imagenes/vamo.jpg);
+    width: 100%;
+    display: flex;
+    justify-content:space-between
+    
+}
+
+.contactdiv form{
+    width: 50%;
+    padding: 30px 130px;
+    justify-content: center;
+    
+}
+
+.contactdiv iframe{
+    width: 50%;
+    padding: 90px;
+    
+    
+}
+
+.socialmedia{
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
